@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.4.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="js/daterangepicker.css" />
+		<script src="js/moment.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/daterangepicker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap-3.3.4.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<div style="margin-left: 100px;">
+			<span style="font-weight: bold;font-size: 1.5em;">开始时间-结束时间：</span><input type="text" id="config-demo" class="date-input" size="30">
+			<p></p>
+			<br />
+			<p class="tip">1、选择开始和结束时间，点击确定查询数据</p>
+			<p class="tip">2、修改数据，点击提交</p>
+		</div>
+		<span class="load-txt">正在查询数据...</span>
+		<table id="data-table" style="margin-top: 50px;">
+			<tr>
+				<th class="mytitle">日期</th>
+				<th class="mytitle">注册数</th>
+				<th class="mytitle">活跃数</th>
+			</tr>
+			<!--<tr class="data">
+				<td class="timeDate">2017-03-10</td>
+				<td class="registerNum"><input type="text" value="22"></td>
+				<td class="activeNum"><input type="text" value="22"></td>
+			</tr>-->
+		</table>
+		<div class="button" id="submit"><span>提交</span></div>
+	</body>
+
+</html>

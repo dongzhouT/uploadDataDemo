@@ -1,0 +1,46 @@
+body {
+	font-family: "microsoft yahei", Arial;
+	font-size: 1.5em;
+	/*color: #fff;*/
+	/*color: #626263;*/
+	/*color: silver;*/
+	padding: 10px;
+	margin: 0;
+}
+
+.load-txt {
+	display: block;
+	margin: 20px 0 30px 30px;
+	display: none;
+	color: #bdbdbd;
+}
+
+.button {
+	color: #fff;
+	width: 160px;
+	height: 40px;
+	background-color: #2985F2;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 200px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.button span {
+	line-height: 40px;
+}
+
+input {
+	padding: 10px;
+}
+
+.timeDate,
+.registerNum,
+.activeNum,
+.mytitle {
+	width: 200px;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}

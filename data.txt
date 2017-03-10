@@ -1,0 +1,27 @@
+﻿
+{
+    "data":[
+        {
+            "time":1488729600,
+            "register":3,
+            "active":11
+        },
+        {
+            "time":1488816000,
+            "register":45,
+            "active":118
+        },
+        {
+            "time":1488902400,
+            "register":120,
+            "active":131
+        },
+        {
+            "time":1489075200,
+            "register":122,
+            "active":56
+        }
+    ]
+}
+
+http://192.168.43.2:8080/readPlan?start_time=1488297600&end_time=1488643199
